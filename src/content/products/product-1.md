@@ -1,6 +1,6 @@
 ---
 title: Product Sigma
-thumbnail: /blog-placeholder-3.jpg
+thumbnail: /uploads/watercolor-forest.png
 ---
 
 based.
