@@ -13,7 +13,6 @@ const blog = defineCollection({
 const products = defineCollection({
   schema: z.object({
     title: z.string(),
-    body: z.string(),
     thumbnail: z.string(),
   }),
 });
