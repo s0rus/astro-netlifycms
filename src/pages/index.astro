@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 const products = await getCollection('products');
@@ -14,7 +13,6 @@ const products = await getCollection('products');
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
 		{products.map((product) => (
 			<div>
 				{product.data.title}
