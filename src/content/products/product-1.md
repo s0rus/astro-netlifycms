@@ -1,6 +1,6 @@
 ---
-title: Product Sigma
+title: Product One
 thumbnail: /uploads/watercolor-forest.png
 ---
 
-based.
+Product one description.
